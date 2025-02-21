@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rowdies:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body{
+    background-image: url(../imagens/nightfall-mountain-sea-moon-wallpaper-preview.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Kanit', sans-serif;
+}
+:root{
+    --branco:rgb(255,255,255);
+    --preto:rgb(51,51,51);
+    --bege:rgb(176,196,222);
+    --cinza:rgb(112,128,144);
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.caixa-formulario{
+    position: absolute;
+    width:600px;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.caixa-formulario h2{
+    font-size:2em;
+    color:var(--cinza);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:3%;
+}
+.input-box input{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:24px;
+    width:87%;
+    height:45px;
+    border-radius:30px;
+    border:none;
+    outline:none;
+    background: rgba(255,255,255,0.1);
+    color:var(--branco);
+    padding: 0 0 0 45px;
+    margin-bottom:5px;
+}
+.input-box ion-icon{
+    position:relative;
+    top:30px;
+    left: 42px;
+    color:var(--cinza);
+}
+a{
+    color:var(--bege);
+    font-family: 'Rowdies', cursive;
+}
+.enviar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1em;
+    color:var(--branco);
+}
+.enviar label{
+    font-family: 'Rowdies', cursive;
+}
+::-webkit-input-placeholder{
+    color:var(--preto);
+    font-family: 'Lobster', cursive;
+}
+.input-field{
+    display:flex;
+    flex-direction:column;
+}
+.botao{
+    border:none;
+    border-radius:30px;
+    font-size:15px;
+    height:27px;
+    margin:10px 10px;
+    cursor: pointer;
+    color:var(--preto);
+    font-family: 'Lobster', cursive;
+}
+p{
+    color:var(--branco);
+    font-size:1em;
+    font-family: 'Rowdies', cursive;
+}
